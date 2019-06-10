@@ -6,7 +6,7 @@
 [![Node Engine](https://badgen.now.sh/npm/node/@keeveestore/file)](https://www.npmjs.com/package/@keeveestore/file)
 [![Build Status](https://badgen.now.sh/circleci/github/keeveestore/file)](https://circleci.com/gh/keeveestore/file)
 [![Codecov](https://badgen.now.sh/codecov/c/github/keeveestore/file)](https://codecov.io/gh/keeveestore/file)
-[![License: MPL-2.0](https://badgen.now.sh/badge/license/MPL-2.0/green)](https://mozilla.org/MPL/2.0/)
+[![License: MPL-2.0](https://badgen.now.sh/badge/license/MPL-2.0/green)](https://mozilla.org/MPL/2.0/) [![Greenkeeper badge](https://badges.greenkeeper.io/keeveestore/file.svg)](https://greenkeeper.io/)
 
 ## Installation
 
