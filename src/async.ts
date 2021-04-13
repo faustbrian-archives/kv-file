@@ -1,8 +1,9 @@
 import { IKeyValueStoreAsync } from "@konceiver/kv";
+
 import { StoreSync } from "./sync";
 
 export class StoreAsync<K, T> implements IKeyValueStoreAsync<K, T> {
-	private constructor(private readonly store: StoreSync<K, T>) {}
+	public constructor(protected readonly store: StoreSync<K, T>) {}
 
 	public async all(): Promise<[K, T][]> {
 		return this.store.all();

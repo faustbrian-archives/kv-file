@@ -3,7 +3,10 @@ import { IKeyValueStoreSync } from "@konceiver/kv";
 
 export abstract class StoreSync<K, T> implements IKeyValueStoreSync<K, T> {
 	// @ts-ignore
-	private constructor(private readonly store: Map<K, T>, private readonly uri: string) {
+	public constructor(
+		protected readonly store: Map<K, T>,
+		protected readonly uri: string
+	) {
 		this.load();
 	}
 
