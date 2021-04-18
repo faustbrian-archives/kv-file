@@ -26,11 +26,11 @@
 		"dist"
 	],
 	"dependencies": {
-		"@konceiver/kv": "^1.0.0"
+		"@konceiver/kv": "^1.0.1"
 	},
 	"devDependencies": {
-		"@konceiver/tease": "^2.0.0",
-		"@types/fs-extra": "^9.0.5"
+		"@konceiver/tease": "^2.0.1",
+		"@types/fs-extra": "^9.0.11"
 	},
 	"types": "dist/index"
 }
